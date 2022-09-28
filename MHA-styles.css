@@ -36,7 +36,9 @@ p {
   margin: 20px 0 40px;
 
 }
-
+.container h1{
+  text-shadow: 2px 2px black;
+}
 .container p{
   text-shadow: 2px 2px black;
 }
