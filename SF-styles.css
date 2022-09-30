@@ -1,0 +1,59 @@
+html{
+  font-size:20px;
+  font-family:'poppins',sans-serif;
+  background-image:url("https://www.chartercollege.edu/sites/default/files/styles/scale_upto_640/public/iStock-626408770.jpg?itok=H8HatuDI&timestamp=1498663920");
+  background-color: rgba(100, 100, 230, 0.8);
+ background-blend-mode: soft-light;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-filter:blur("1000px");
+ background-position: center;
+}
+
+
+form{
+  max-width:550px;
+  margin:auto;
+  color: white;
+  background-color: darkslateblue;
+  padding:25px;
+  border-radius: 1%;
+}
+
+header{
+  text-align:center;
+  line-height: 10pt;
+  color: white;
+  padding: 10pt;
+}
+
+#title{
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+#description{
+  font-style: italic;
+  font-weight: 100;
+}
+
+input,select,button,textarea{
+  width: 100%;
+  padding: 5px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: white;
+  color: grey;
+  font-family: inherit;
+  font-size: 1rem;
+}
+input[type="text"], input[type="email"],input[type="number"],select,button,textarea{
+  width: 100%;
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: white;
+  color: darkgray;
+  font-family: inherit;
+  font-size: 1rem;
+}
