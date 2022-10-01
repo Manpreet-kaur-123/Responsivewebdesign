@@ -1,44 +1,43 @@
-html{
-  font-size:20px;
-  font-family:'poppins',sans-serif;
-  background-image:url("https://www.chartercollege.edu/sites/default/files/styles/scale_upto_640/public/iStock-626408770.jpg?itok=H8HatuDI&timestamp=1498663920");
+html {
+  font-size: 20px;
+  font-family: 'poppins', sans-serif;
+  background-image: url("https://www.chartercollege.edu/sites/default/files/styles/scale_upto_640/public/iStock-626408770.jpg?itok=H8HatuDI&timestamp=1498663920");
   background-color: rgba(100, 100, 230, 0.8);
- background-blend-mode: soft-light;
- background-repeat: no-repeat;
- background-size: cover;
- background-filter:blur("1000px");
- background-position: center;
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-filter: blur("1000px");
+  background-position: center;
 }
 
-
-form{
-  max-width:550px;
-  margin:auto;
+form {
+  max-width: 550px;
+  margin: auto;
   color: white;
   background-color: darkslateblue;
-  padding:25px;
+  padding: 25px;
   border-radius: 1%;
 }
 
-header{
-  text-align:center;
+header {
+  text-align: center;
   line-height: 10pt;
   color: white;
   padding: 10pt;
 }
 
-#title{
+#title {
   font-size: 1.7rem;
   font-weight: bold;
 }
 
-#description{
+#description {
   font-style: italic;
   font-weight: 100;
 }
 
-input,select,button,textarea{
-  width: 100%;
+input, select, button, textarea {
+  width: 10%;
   padding: 5px;
   margin: 0px;
   box-sizing: border-box;
@@ -47,7 +46,8 @@ input,select,button,textarea{
   font-family: inherit;
   font-size: 1rem;
 }
-input[type="text"], input[type="email"],input[type="number"],select,button,textarea{
+
+input[type="text"], input[type="email"], input[type="number"], select, button, textarea {
   width: 100%;
   padding: 5px;
   margin: 0;
@@ -56,4 +56,32 @@ input[type="text"], input[type="email"],input[type="number"],select,button,texta
   color: darkgray;
   font-family: inherit;
   font-size: 1rem;
+  border-radius: 7px;
+}
+
+label, form>p {
+  font-family: inherit;
+  font-stretch: expanded;
+  line-height: 2.5;
+  font-size: 1.2rem;
+}
+
+#submit {
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 5pt;
+  margin-top: 20px;
+}
+
+form>p {
+  margin-bottom: 0;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  height: 17px;
+}
+
+textarea {
+  height: 7rem;
 }
